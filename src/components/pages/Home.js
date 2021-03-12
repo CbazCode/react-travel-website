@@ -5,7 +5,7 @@ import Footer from '../Footer';
 import HeroSection from '../HeroSection';
 // import Footer from '../Footer';
 
-export function Home() {
+function Home() {
   return (
     <>
       <HeroSection />
@@ -14,3 +14,5 @@ export function Home() {
     </>
   );
 }
+
+export default Home
